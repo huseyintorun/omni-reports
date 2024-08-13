@@ -1,0 +1,630 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-13T18:15:50.302Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3337050000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.omni.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check the Basis Features of Omni_hypnosis Website",
+        "description": "",
+        "id": "omni-page-smoke-test;check-the-basis-features-of-omni-hypnosis-website",
+        "after": [
+          {
+            "result": {
+              "duration": 327790600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.omni.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7157442400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user on main page",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.the_user_on_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10472900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "check the URL of website correct",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.checkTheURLOfWebsiteCorrect()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2922480000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click on OMNIfinder accepted",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnOMNIfinderAccepted()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6410735300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user click on AboutOMNI button",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnAboutOMNIButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6966800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User confirm that Page",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.userConfirmThatPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3641362600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user click on OMNI Language toggle to choose german",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnOMNILanguageToggleToChooseGerman()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3026597200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user check that Lamguage changed",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.userCheckThatLamguageChanged()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-13T18:16:17.184Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1185879900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.omni.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check the availability of order Process for Switzerland",
+        "description": "",
+        "id": "omni-page-smoke-test;check-the-availability-of-order-process-for-switzerland",
+        "after": [
+          {
+            "result": {
+              "duration": 353592100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.omni.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6609619300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user on main page",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.the_user_on_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2957333600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user click on OMNIfinder accepted",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnOMNIfinderAccepted()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5756414100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user click on OMNI Language toggle to choose german",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnOMNILanguageToggleToChooseGerman()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14126928100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user clicks on BEGINNE NOCH HEUTE starten",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClicksOnBEGINNENOCHHEUTEStarten()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11041800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user checks that Order Process page opens",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserChecksThatOrderProcessPageOpens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7210949200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks on Jetzt Platz in der Schweiz sichern",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClicksOnJetztPlatzInDerSchweizSichern()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12213979400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user fills the form and choose Switzerland as country",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserFillsTheFormAndChooseSwitzerlandAsCountry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7110029800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user click on apply coupon button",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnApplyCouponButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3108459200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user enter the coupon in the place holder",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserEnterTheCouponInThePlaceHolder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4115821300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user click on apply",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnApply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41809652700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user click on complete order and check if order completed or not",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnCompleteOrderAndCheckIfOrderCompletedOrNot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-13T18:18:03.760Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1231184000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.omni.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Check the availability of order Process for Deutschland",
+        "description": "",
+        "id": "omni-page-smoke-test;check-the-availability-of-order-process-for-deutschland",
+        "after": [
+          {
+            "result": {
+              "duration": 275629200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.omni.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6820120400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user on main page",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.the_user_on_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2965077500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user click on OMNIfinder accepted",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnOMNIfinderAccepted()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5658790600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user click on OMNI Language toggle to choose german",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnOMNILanguageToggleToChooseGerman()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5339612200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the User choose Deutchland from Hover Over Menu",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserChooseDeutchlandFromHoverOverMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7234923800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user clicks on Jetzt Platz in Deutschland sichern",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClicksOnJetztPlatzInDeutschlandSichern()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11516451300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user fills the form",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserFillsTheForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7150484900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user click on apply coupon button",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnApplyCouponButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3127460300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user enter the coupon in the place holder",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserEnterTheCouponInThePlaceHolder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4094714500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user click on apply",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnApply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41784551200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user click on complete order and check if order completed or not",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnCompleteOrderAndCheckIfOrderCompletedOrNot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-13T18:19:40.970Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1490630500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.omni.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Check the availability of order Process for USA",
+        "description": "",
+        "id": "omni-page-smoke-test;check-the-availability-of-order-process-for-usa",
+        "after": [
+          {
+            "result": {
+              "duration": 344307300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.omni.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7673386900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user on main page",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.the_user_on_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2938871800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user click on OMNIfinder accepted",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnOMNIfinderAccepted()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5851918900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user click on OMNI Language toggle to choose german",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnOMNILanguageToggleToChooseGerman()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5576690100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the User choose US from Hover Over Menu",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserChooseUSFromHoverOverMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7202601900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user clicks on Secure your spot in the US",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClicksOnSecureYourSpotInTheUS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11570421900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user fills the form and choose USA as country",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserFillsTheFormAndChooseUSAAsCountry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7147656800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user click on apply coupon button",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnApplyCouponButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3096467800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user enter the coupon in the place holder",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserEnterTheCouponInThePlaceHolder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4089340500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user click on apply",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnApply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41833946800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user click on complete order and check if order completed or not",
+            "match": {
+              "location": "com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnCompleteOrderAndCheckIfOrderCompletedOrNot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Omni Page Smoke Test",
+    "description": "",
+    "id": "omni-page-smoke-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/smoke_tests.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
