@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Cucumber HTML Reports</td>
+        <td>1</td>
+      <td>17 Aug 2024, 10:16</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.Hooks.setUp()</td>
+              <td>4</td>
+              <td class="duration" data-value="1240738500">1.240</td>
+              <td class="duration" data-value="1240738500">1.562</td>
+              <td class="duration" data-value="4962954000">4.962</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</td>
+              <td>4</td>
+              <td class="duration" data-value="210228425">0.210</td>
+              <td class="duration" data-value="210228425">0.221</td>
+              <td class="duration" data-value="840913700">0.840</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.checkTheURLOfWebsiteCorrect()</td>
+              <td>1</td>
+              <td class="duration" data-value="17580600">0.017</td>
+              <td class="duration" data-value="17580600">0.017</td>
+              <td class="duration" data-value="17580600">0.017</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserChecksThatOrderProcessPageOpens()</td>
+              <td>1</td>
+              <td class="duration" data-value="11997200">0.011</td>
+              <td class="duration" data-value="11997200">0.011</td>
+              <td class="duration" data-value="11997200">0.011</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserChooseDeutchlandFromHoverOverMenu()</td>
+              <td>1</td>
+              <td class="duration" data-value="5061336400">5.061</td>
+              <td class="duration" data-value="5061336400">5.061</td>
+              <td class="duration" data-value="5061336400">5.061</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserChooseUSFromHoverOverMenu()</td>
+              <td>1</td>
+              <td class="duration" data-value="5519705100">5.519</td>
+              <td class="duration" data-value="5519705100">5.519</td>
+              <td class="duration" data-value="5519705100">5.519</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnAboutOMNIButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="7484040300">7.484</td>
+              <td class="duration" data-value="7484040300">7.484</td>
+              <td class="duration" data-value="7484040300">7.484</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnApply()</td>
+              <td>3</td>
+              <td class="duration" data-value="4092233700">4.092</td>
+              <td class="duration" data-value="4092233700">4.096</td>
+              <td class="duration" data-value="12276701100">12.276</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnApplyCouponButton()</td>
+              <td>3</td>
+              <td class="duration" data-value="7098141566">7.098</td>
+              <td class="duration" data-value="7098141566">7.106</td>
+              <td class="duration" data-value="21294424700">21.294</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnCompleteOrderAndCheckIfOrderCompletedOrNot()</td>
+              <td>3</td>
+              <td class="duration" data-value="41701432900">41.701</td>
+              <td class="duration" data-value="41701432900">41.812</td>
+              <td class="duration" data-value="125104298700">2:5.104</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnOMNILanguageToggleToChooseGerman()</td>
+              <td>4</td>
+              <td class="duration" data-value="5476861275">5.476</td>
+              <td class="duration" data-value="5476861275">6.146</td>
+              <td class="duration" data-value="21907445100">21.907</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserClickOnOMNIfinderAccepted()</td>
+              <td>4</td>
+              <td class="duration" data-value="3414296925">3.414</td>
+              <td class="duration" data-value="3414296925">3.486</td>
+              <td class="duration" data-value="13657187700">13.657</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserClicksOnBEGINNENOCHHEUTEStarten()</td>
+              <td>1</td>
+              <td class="duration" data-value="11684595800">11.684</td>
+              <td class="duration" data-value="11684595800">11.684</td>
+              <td class="duration" data-value="11684595800">11.684</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserClicksOnJetztPlatzInDerSchweizSichern()</td>
+              <td>1</td>
+              <td class="duration" data-value="7199856000">7.199</td>
+              <td class="duration" data-value="7199856000">7.199</td>
+              <td class="duration" data-value="7199856000">7.199</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserClicksOnJetztPlatzInDeutschlandSichern()</td>
+              <td>1</td>
+              <td class="duration" data-value="7197997900">7.197</td>
+              <td class="duration" data-value="7197997900">7.197</td>
+              <td class="duration" data-value="7197997900">7.197</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserClicksOnSecureYourSpotInTheUS()</td>
+              <td>1</td>
+              <td class="duration" data-value="7177245800">7.177</td>
+              <td class="duration" data-value="7177245800">7.177</td>
+              <td class="duration" data-value="7177245800">7.177</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserEnterTheCouponInThePlaceHolder()</td>
+              <td>3</td>
+              <td class="duration" data-value="3086755200">3.086</td>
+              <td class="duration" data-value="3086755200">3.093</td>
+              <td class="duration" data-value="9260265600">9.260</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserFillsTheForm()</td>
+              <td>1</td>
+              <td class="duration" data-value="11245898700">11.245</td>
+              <td class="duration" data-value="11245898700">11.245</td>
+              <td class="duration" data-value="11245898700">11.245</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserFillsTheFormAndChooseSwitzerlandAsCountry()</td>
+              <td>1</td>
+              <td class="duration" data-value="11867754500">11.867</td>
+              <td class="duration" data-value="11867754500">11.867</td>
+              <td class="duration" data-value="11867754500">11.867</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.theUserFillsTheFormAndChooseUSAAsCountry()</td>
+              <td>1</td>
+              <td class="duration" data-value="11179279900">11.179</td>
+              <td class="duration" data-value="11179279900">11.179</td>
+              <td class="duration" data-value="11179279900">11.179</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.the_user_on_main_page()</td>
+              <td>4</td>
+              <td class="duration" data-value="6698514475">6.698</td>
+              <td class="duration" data-value="6698514475">6.823</td>
+              <td class="duration" data-value="26794057900">26.794</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.userCheckThatLamguageChanged()</td>
+              <td>1</td>
+              <td class="duration" data-value="3032983700">3.032</td>
+              <td class="duration" data-value="3032983700">3.032</td>
+              <td class="duration" data-value="3032983700">3.032</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.omni.stepdefinitions.OmnistartStepDefs.userConfirmThatPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="6324700">0.006</td>
+              <td class="duration" data-value="6324700">0.006</td>
+              <td class="duration" data-value="6324700">0.006</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>23</td>
+            <td>46</td>
+            <td class="duration">7.060</td>
+            <td class="duration">2:5.104</td>
+            <td class="duration">5:24.784</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
